@@ -10,6 +10,15 @@ int my_strlen(char *s)
    return (p - s);
 }
 
+int my_strlen1(char *s)
+{
+   char *p = s;
+
+   while (*p)
+      ++p;
+
+   return (p - s);
+}
 int main(void)
 {
    int i;
@@ -25,3 +34,4 @@ int main(void)
 
    return 0;
 }
+#12344555666
